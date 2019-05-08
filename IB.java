@@ -85,7 +85,7 @@ public class IB {
 		return array;
 	}
    public static void main(String[] args) throws IOException{
-        BufferedImage imagem = ImageIO.read(new File("teste.jpg"));
+        BufferedImage imagem = ImageIO.read(new File("Lenna.jpg"));
         int linhas = imagem.getWidth();
 	int colunas = imagem.getHeight();
         
